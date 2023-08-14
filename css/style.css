@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.center{
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+/*----------HEADER----------*/
+
+header{
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 2%;
+    position: relative;
+}
+
+.logo{
+    float: left;
+}
+
+.logo a{
+    font-weight: lighter;
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+}
+
+nav.menu-desktop{
+    float: right;
+    position: relative;
+    top: 3px;
+}
+
+.menu-desktop ul li{
+    list-style-type: none;
+    float: left;
+}
+
+.menu-desktop ul li a{
+    text-decoration: none;
+    font-weight: normal;
+    color: #000;
+    padding: 0 30px;
+}
+
+/*----------HOME----------*/
+
+section.home{
+    background-image: url('../images/img1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 200px 0 150px 0;
+    position: relative;
+}
+
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+section.home .center{
+    z-index: 1;
+    position: relative;
+    max-width: 1300px;
+}
+
+.home h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home h4{
+    color: #fff;
+    font-weight: normal;
+    margin: 30px auto 60px auto;
+    font-size: 20px;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.wraper-button{
+    text-align: center;
+}
+
+.wraper-button button:nth-child(1){
+    background-color: rgb(240, 188, 0);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 13px 30px;
+    border-radius: 25px;
+    border: 2px solid rgb(240, 188, 0);
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    margin-right: 20px;
+}
+
+.wraper-button button:nth-child(1):hover{
+    background-color: rgba(0,0,0,0.0);
+    border: 2px solid rgb(240, 188, 0);
+    color: rgb(240, 188, 0);
+    padding: 14px 31px;
+    font-size: 15px;
+    margin: -2px 11px -2px -2px;
+}
+
+.wraper-button button:nth-child(2){
+    background-color: rgba(0,0,0,0.0);
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    padding: 13px 30px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.wraper-button button:nth-child(2):hover{
+    background-color: #fff;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 14px 31px;
+    font-size: 15px;
+    margin: -2px -2px -2px -9px;
+}
+
+.icons-home{
+    margin-top: 100px;
+}
+
+.wraper-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.single-icon{
+    width: calc(100% / 4);
+    text-align: center;
+    color: white;
+    margin: 0 40px;
+}
+
+.single-icon h3{
+    font-weight: lighter;
+}
+
+/*----------AULAS----------*/
+
+section.aulas{
+    padding: 80px 0;
+    background-color: rgb(223, 223, 223);
+}
+
+.aulas h2{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 70px;
+}
+
+.aulas-wraper{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.aulas-single{
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 10px;
+}
+
+.aulas-single h3{
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+.aulas-single img{
+    width: 100%;
+    height: 300px;
+}
+
+.content-aulas{
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.content-aulas p{
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 25px;
+
+}
+
+.content-aulas a{
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 204, 0);
+    font-weight: bold;
+}
+
+.content-aulas a:hover{
+    color: rgb(255, 204, 0);
+}
+
+/*----------PESO----------*/
+
+section.peso{
+    background-image: url('../images/fgfgfg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.info-peso{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.info-peso h2{
+    margin-top: 160px;
+    font-weight: lighter;
+    font-size: 60px;
+}
+
+.info-peso p{
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.img-peso{
+    width: 50%;
+    float: left;
+}
+
+.img-peso img{
+    width: 100%;
+}
+
+.info-peso button{
+    background-color: rgb(240, 188, 0);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: 2px solid rgb(240, 188, 0);
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    margin-top: 60px;
+}
+
+.info-peso button:hover{
+    background-color: rgba(0,0,0,0.0);
+    border: 2px solid rgb(240, 188, 0);
+    color: rgb(240, 188, 0);
+    padding: 14px 31px;
+    font-size: 15px;
+}
+
+/*----------AULAS-POPULARES---------*/
+
+section.aulas-populares{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.wraper-overlay{
+    position: relative;
+}
+
+.img-popular{
+    background-image: url('../images/jhjhjj4-min.jpg');
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.img-popular h2{
+    font-weight: normal;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 100px;
+    z-index: 2;
+    position: relative;
+}
+
+.info-popular{
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+.wraper-popular{
+    display: flex;
+    position: relative;
+    top: 300px;
+    padding-bottom: 40px;
+}
+
+.wraper-single{
+    width: calc(100% / 4);
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 1px 4px #ccc;
+    padding: 40px 20px;
+    z-index: 3;
+    background-color: #fff;
+}
+
+.wraper-single img{
+    background-color: rgb(240, 188, 0);
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.wraper-single h2{
+    text-transform: uppercase;
+    padding-top: 22px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.wraper-single p{
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.wraper-single a{
+    text-transform: uppercase;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid rgb(255, 204, 0);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.wraper-single a:hover{
+    color: rgb(255, 204, 0);
+}
+
+
+section.contato{
+    padding: 350px 0 30px 0;
+}
+
+.contato h2{
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.wraper-contato{
+    margin-top: 40px;
+    width: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 30px 0;
+    display: flex;
+}
+
+.wraper-contato form{
+    width: 50%;
+    padding: 20px 50px 20px 0;
+}
+
+.wraper-contato span{
+    font-size: 14px;
+}
+
+.wraper-contato form input[type=text]{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(225, 225, 225);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid rgb(112, 112, 112);
+    color: rgb(112, 112, 112);
+    padding-left: 8px;
+}
+
+.wraper-contato .content-contato{
+    width: 50%;
+    padding: 100px 40px;
+}
+
+.content-contato h3{
+    font-weight: normal;
+    color: gray;
+    font-size: 18px;
+    text-align: left;
+}
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 48.5%;
+    float: left;
+    margin: 30px 8px 30px 0;
+}
+
+.wraper-contato form .button{
+    text-align: center;
+}
+
+.wraper-contato form input[type=button]{
+    background-color: rgb(240, 188, 0);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: 2px solid rgb(240, 188, 0);
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 50px 0;
+}
