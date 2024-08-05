@@ -118,15 +118,14 @@ section.home .center{
     cursor: pointer;
     color: #000;
     margin-right: 20px;
+    transition: .1s;
 }
 
 .wraper-button button:nth-child(1):hover{
     background-color: rgba(0,0,0,0.0);
     border: 2px solid rgb(240, 188, 0);
     color: rgb(240, 188, 0);
-    padding: 14px 31px;
-    font-size: 15px;
-    margin: -2px 11px -2px -2px;
+    transform: scale(1.02);
 }
 
 .wraper-button button:nth-child(2){
@@ -139,15 +138,14 @@ section.home .center{
     border: 2px solid #fff;
     font-weight: bold;
     cursor: pointer;
+    transition: .1s;
 }
 
 .wraper-button button:nth-child(2):hover{
     background-color: #fff;
     border: 2px solid rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 14px 31px;
-    font-size: 15px;
-    margin: -2px -2px -2px -9px;
+    transform: scale(1.02);
 }
 
 .icons-home{
@@ -180,7 +178,7 @@ section.aulas{
 .aulas h2{
     font-weight: lighter;
     text-align: center;
-    font-size: 70px;
+    font-size: 45px;
 }
 
 .aulas-wraper{
@@ -252,7 +250,7 @@ section.peso{
 .info-peso h2{
     margin-top: 160px;
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .info-peso p{
@@ -281,14 +279,14 @@ section.peso{
     cursor: pointer;
     color: #000;
     margin-top: 60px;
+    transition: .1s;
 }
 
 .info-peso button:hover{
     background-color: rgba(0,0,0,0.0);
     border: 2px solid rgb(240, 188, 0);
-    color: rgb(240, 188, 0);
-    padding: 14px 31px;
-    font-size: 15px;
+    color: rgb(219, 198, 122);
+    transform: scale(1.02);
 }
 
 /*----------AULAS-POPULARES---------*/
@@ -383,17 +381,17 @@ section.aulas-populares{
 
 
 section.contato{
-    padding: 350px 0 30px 0;
+    padding: 350px 0 60px 0;
 }
 
 .contato h2{
     text-align: center;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: lighter;
 }
 
 .wraper-contato{
-    margin-top: 40px;
+    margin-top: 30px;
     width: 100%;
     background-color: rgb(225, 225, 225);
     padding: 30px 0;
@@ -419,6 +417,7 @@ section.contato{
     border-bottom: 2px solid rgb(112, 112, 112);
     color: rgb(112, 112, 112);
     padding-left: 8px;
+    outline: 0;
 }
 
 .wraper-contato .content-contato{
@@ -458,6 +457,14 @@ section.contato{
     cursor: pointer;
     color: #000;
     margin-top: 10px;
+    transition: .1s;
+}
+
+.wraper-contato form input[type=button]:hover{
+    background-color: rgba(0,0,0,0.0);
+    border: 2px solid rgb(240, 188, 0);
+    color: rgb(219, 198, 122);
+    transform: scale(1.02);
 }
 
 footer{
